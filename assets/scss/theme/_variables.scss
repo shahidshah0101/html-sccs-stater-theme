@@ -1,0 +1,28 @@
+$font-family: 'Roboto', sans-serif;
+$gradient-start-color      : #5989e5;
+$gradient-end-color        : #37cfdc;
+$theme-colors: (
+  'primary': (
+    'base': #384ea9,
+    'light': #e4efff,
+    'dark': #273677
+  ),
+  'accent': (
+    'base': #f08110,
+    'light': #ff8100,
+    'dark': #e47f17
+  ),
+  'foreground': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111,
+    'white': #fff,
+    'black': #000,
+  ),
+  'background': (
+    'base': #f8f5f5,
+    'light': #f5f5f5,
+    'dark': #ddd,
+    'white': #fff
+  )
+);

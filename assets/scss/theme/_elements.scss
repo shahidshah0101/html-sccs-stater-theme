@@ -1,0 +1,135 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	line-height: 1.15;
+	box-sizing: border-box;
+	min-height:100%;
+	height:100%;
+}
+body {
+	background-color: theme-color('background','white');
+	font-family: $font-family;
+	font-size: 0.875rem;
+	font-weight: 400;
+	height:100%;
+	min-height:100%;
+	color: theme-color('foreground', 'dark');
+	overflow-x: hidden;
+	position: relative;
+	 -webkit-text-size-adjust: 100%; //fix for iOS
+	     -webkit-font-smoothing: antialiased;
+}
+/* Title Typo */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+	color:theme-color('foreground', 'dark');
+	font-style: normal;
+	font-weight: 600;
+	margin: 0px 0px 10px 0px;
+	font-family: $font-family;
+	letter-spacing: 1px;
+	font-size-adjust: none;
+	-moz-font-size-adjust: none;
+	-webkit-font-size-adjust: none
+
+}
+h1 {font-size: 2.875rem;}//35px
+h2 {font-size: 1.875rem }//30px
+h3 {font-size: 1.5625rem }//25px
+h4 {font-size: 1.375rem}//22px
+h5 {font-size: 1.25rem}//20px
+h6 {font-size: 1rem}//16px
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: theme-color('foreground', 'dark');}
+p {
+	color: theme-color('foreground', 'dark');
+	letter-spacing: 1px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover, a:focus, a:active {
+	color:theme-color('foreground', 'dark');
+	outline: none;
+	text-decoration: none;
+}
+ul {margin-bottom: 0px;}
+img,a img {
+	height: auto;
+	max-width: 100%;
+	border-style: none;
+}
+b,
+strong {
+	font-weight: 600;
+}
+small {
+	font-size: 80%;
+}
+strong {color: theme-color('foreground', 'dark');}
+/* Form Input Typo */
+label {
+	color: theme-color('foreground', 'dark');
+	font-weight: 400;
+}
+select,textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	border: 1px solid #ebebeb;
+	color: theme-color('foreground', 'dark');
+	display: inline-block;
+	font-size: 0.875rem;
+	font-weight: 400;
+	height: 32px;
+	line-height: 20px;
+	outline: none;
+	padding: 4px 6px;
+	vertical-align: middle;
+	background-color: theme-color('background','white');
+	border-radius: 4px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+	-webkit-appearance: button;
+}
+button,
+input {
+	overflow: visible;
+	border: none;
+}
+button,
+select {
+	text-transform: none;
+}
+input[type="submit"] { outline: none; }
+option {padding: 5px 15px;}
+/* ThemeUnit Style's */
+li {list-style: disc inside none;}
+ol {
+	float: none;
+	list-style: decimal;
+	padding-left: 15px;
+}
+ol ol {margin-left: 20px;}
+ol li {
+	list-style: decimal;
+	width: 100%;
+}

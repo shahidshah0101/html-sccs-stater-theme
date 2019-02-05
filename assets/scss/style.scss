@@ -1,0 +1,12 @@
+/*====================================================== 
+	All Partial scss files import here
+  ======================================================*/
+
+//======= import variables and mixins =========
+ @import "theme/variables";
+ @import "theme/mixins";
+//======= import theme files here =============
+ @import "theme/elements";
+ @import "theme/header";
+ @import "theme/footer";
+ @import "theme/content";

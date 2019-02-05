@@ -1,0 +1,11 @@
+{
+  "name": "stater-html-scss",
+  "version": "1.0.0",
+  "description": "This is html and scss stater template inlcuded header navigation menu and footer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahid Ali",
+  "license": "ISC"
+}
