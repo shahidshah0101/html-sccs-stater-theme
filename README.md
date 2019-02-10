@@ -98,8 +98,6 @@ To begin using this template, click the Clone or download buttons, There is no e
 
 After downloading, simply edit the HTML and CSS/SCSS files
 
-### Screenshots
-![alt text](https://github.com/shahidshah0101/html-sccs-stater-theme/blob/master/assets/images/header_footer.png)
 
 ## About author 
 Front end Developer 2015 - Present
