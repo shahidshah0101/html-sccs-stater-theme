@@ -98,6 +98,5 @@ To begin using this template, click the Clone or download buttons, There is no e
 
 After downloading, simply edit the HTML and CSS/SCSS files
 
-
 ## About author 
 Front end Developer 2015 - Present
