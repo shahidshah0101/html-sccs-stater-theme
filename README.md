@@ -28,6 +28,67 @@ A) Use of Favicon [stackoverflow](https://stackoverflow.com/questions/4014823/do
 
 ---
 
+B) Sass theme structure and variable.sccs file
+
+```css
+$font-family: 'Roboto', sans-serif;
+$gradient-start-color      : #5989e5;
+$gradient-end-color        : #37cfdc;
+$theme-colors: (
+  'primary': (
+    'base': #384ea9,
+    'light': #e4efff,
+    'dark': #273677
+  ),
+  'accent': (
+    'base': #f08110,
+    'light': #ff8100,
+    'dark': #e47f17
+  ),
+  'foreground': (
+    'base': #393939,
+    'light': #6e6e6e,
+    'dark': #111,
+    'white': #fff,
+    'black': #000,
+  ),
+  'background': (
+    'base': #f8f5f5,
+    'light': #f5f5f5,
+    'dark': #ddd,
+    'white': #fff
+  )
+);
+
+ ```
+
+C) Sass media queries mixins
+
+```css
+$breakpoints: (
+  xs: 320px,
+  sm: 768px,
+  md: 1024px,
+  lg: 1280px,
+  xlg: 1280px
+  );
+@mixin respond-between($lower, $upper) {
+  @if map-has-key($breakpoints, $lower) and map-has-key($breakpoints, $upper) {
+    $lower-breakpoint: map-get($breakpoints, $lower);
+    $upper-breakpoint: map-get($breakpoints, $upper);
+    @media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
+      @content;
+    }
+  } @else {
+    @if (map-has-key($breakpoints, $lower) == false) {
+      @warn 'Your lower breakpoint was invalid: #{$lower}.';
+    }
+    @if (map-has-key($breakpoints, $upper) == false) {
+      @warn 'Your upper breakpoint was invalid: #{$upper}.';
+    }
+  }
+}
+ ```
 
 ## Download and Installation
 
