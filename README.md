@@ -10,7 +10,11 @@
 5. Clone the navigation menu for mobile menu
 6. Hamburger menu icon
 
-## dfd
+## Planning and pieces of code that written in this project
+
+A) Favicon
+1. What is the primary favicon file?
+2. What dimensions should favicon.ico be for all screens
 
 ```html
   <!-- favicons -->
