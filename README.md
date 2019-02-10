@@ -96,7 +96,7 @@ To begin using this template, click the Clone or download buttons, There is no e
 
 ### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included within the html-sccs-stater-theme folder.
+After downloading, simply edit the HTML and CSS/SCSS files
 
 
 ## About
