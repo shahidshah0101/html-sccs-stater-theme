@@ -10,7 +10,8 @@
 5. Clone the navigation menu for mobile menu
 6. Hamburger menu icon
 
-## All Favicons for All Devices and Sizes
+## dfd
+
 ```html
   <!-- favicons -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -22,6 +23,8 @@
   ```
 
 ---
+
+
 ## Download and Installation
 
 To begin using this template, click the Clone or download buttons, There is no explicit git ignore files.
