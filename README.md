@@ -12,7 +12,7 @@
 
 ## Planning and pieces of code that written in this project
 
-A) Favicon
+A) Use of Favicon [stackoverflow](https://stackoverflow.com/questions/4014823/does-a-favicon-have-to-be-32x32-or-16x16) and [cssTricks](https://css-tricks.com/favicon-quiz/)
 1. What is the primary favicon file?
 2. What dimensions should favicon.ico be for all screens
 
