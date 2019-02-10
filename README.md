@@ -98,6 +98,8 @@ To begin using this template, click the Clone or download buttons, There is no e
 
 After downloading, simply edit the HTML and CSS/SCSS files
 
+### Screenshots
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ## About author 
 Front end Developer 2015 - Present
